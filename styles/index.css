@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100&family=Syne:wght@400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100&family=Syne:wght@400;500;600;700;800&display=swap');
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+}
+
+/* Remove excess padding and border in Firefox 4+ */
+::-moz-focus-inner {
+     border: 0;
+     padding: 0;
+ }
+
+.header{
+    background-image: url("/img/header.jpg");
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+
+.container ul{
+    padding-left: 116px;
+}
+.navbar-menu{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu li{
+    margin-right: 45px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    margin-right: 116px;
+}
+
+.navbar-menu img{
+    margin-right: 61px;
+}
+
+.navbar-menu li{
+    list-style: none;
+}
+
+.navbar-menu li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    all: unset;
+    color: #FFFFFF;
+}
+
+.navbar-right a{
+    font-style: normal;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    all: unset;
+    color: #FFFFFF;
+}
+
+.navbar-right button{
+    margin-left: 67px;
+    background: #539D98;
+    border-radius: 56px;
+    padding: 13px 32px 13px 33px;
+
+}
+
+.header-btn{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.06em;
+    cursor:pointer;
+    color: #FFFFFF;
+}
+
+.header-btn:hover{
+    background: #091e3e;
+}
+
+
+
